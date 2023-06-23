@@ -1,0 +1,44 @@
+/* Styles for LeavePage component */
+
+/* Set max-width to ensure table fits on smaller screens */
+table {
+          max-width: 100%;
+        }
+        
+        /* Increase font size for better readability */
+        th,
+        td {
+          font-size: 1.1rem;
+        }
+        
+        /* Style buttons */
+        button {
+          padding: 0.5rem 1rem;
+          border-radius: 0.3rem;
+          cursor: pointer;
+          margin-right: 0.5rem;
+        }
+        
+        /* Style header */
+        h1 {
+          font-size: 2rem;
+          margin-bottom: 1rem;
+        }
+        
+        /* Make table rows distinct */
+        tr:nth-child(even) {
+          background-color: #f2f2f2;
+        }
+        
+        /* Set media queries to make table responsive */
+        @media only screen and (max-width: 768px) {
+          th,
+          td {
+            font-size: 0.8rem;
+          }
+          
+          button {
+            padding: 0.3rem 0.7rem;
+          }
+        }
+        
